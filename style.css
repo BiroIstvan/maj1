@@ -1,0 +1,18 @@
+canvas {
+	height: 80vh;
+    width: 80vh;
+    border: 15px solid black;
+}
+/* canvas {
+	border: 22px solid hwb(271 2% 88% / 0.007); } */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing:content-box; */
+}
+
+canvas {
+    position:relative;              
+    background: rgb(255, 136, 0);  
+}
+/* Ha ez NEM 100, akkor koordináta-arányosan lemarad a rajz az egértől. */
